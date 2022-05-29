@@ -1,0 +1,12 @@
+package net.javaguides.springboot.springsecurity.repository;
+
+
+
+import org.springframework.data.repository.CrudRepository;
+
+import net.javaguides.springboot.springsecurity.model.ProductoVendido;
+
+
+public interface ProductosVendidosRepository extends CrudRepository<ProductoVendido, Integer> {
+
+}
